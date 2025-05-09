@@ -36,6 +36,22 @@ If you’d like to use my setup:
 
 Feel free to modify the colors, symbols, or add your own tweaks!
 
+### 🗓️ Monthly Homebrew Update & Internet Check
+
+I've set up a cron job to run the following tasks at midnight on the first day of every month:
+
+1. Run a script to check the internet connection.
+2. Perform a `brew upgrade` to update Homebrew and its packages.
+3. Run `brew cleanup` to remove outdated versions of installed packages.
+
+Here’s the simplified cron job:
+
+```bash
+0 0 1 * * /path/to/check_internet_connection.sh && /usr/local/bin/brew upgrade && /usr/local/bin/brew cleanup
+```
+
+You can replace `/path/to/check_internet_connection.sh` with the path to your internet check script. This ensures Homebrew stays up to date automatically every month!
+
 ### 🎓 Learning & Notes
 
 I began learning Bash scripting through [this excellent tutorial by CodeSchafey](https://youtu.be/j6vKLJxAKfw?si=2mph6H5cRNF72hr5) and started compiling key Linux/macOS terminal commands along the way — including navigation, permissions, system operations, and more. My personal notes and takeaways are available here:
