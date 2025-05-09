@@ -36,8 +36,11 @@ If you’d like to use my setup:
 
 Feel free to modify the colors, symbols, or add your own tweaks!
 
-### 🎓 Learning Source
+### 🎓 Learning & Notes
 
-I followed [this great tutorial by CodeSchafey](https://youtu.be/j6vKLJxAKfw?si=2mph6H5cRNF72hr5) to get started with Bash scripting. This repo includes my takeaways and personalized notes from that video.
+I began learning Bash scripting through [this excellent tutorial by CodeSchafey](https://youtu.be/j6vKLJxAKfw?si=2mph6H5cRNF72hr5) and started compiling key Linux/macOS terminal commands along the way — including navigation, permissions, system operations, and more. My personal notes and takeaways are available here:
 
-This is a living document — I’ll keep updating it as I discover new tricks and tools.
+🔗 [Linux & Mac Terminal Commands – Notion](https://stealth-product-bb1.notion.site/Linux-Mac-Terminal-commands-5dea32356baf4051949ab2a67c789fff?pvs=4)
+
+This is a living reference, and I’ll continue updating it as I learn.
+
